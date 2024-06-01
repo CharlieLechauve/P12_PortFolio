@@ -14,7 +14,7 @@ const items = [
     project: "Website",
     client: " OpenClassRooms",
     langages: " HTML, CSS ",
-    GitHub: " ",
+    previewLink: " ",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const items = [
     project: "Website",
     client: " OpenClassRooms ",
     langages: "HTML, CSS - Mobile First",
-    Github: "https://github.com/CharlieLechauve/Projet4_Ohmyfood",
+    previewLink: "https://github.com/CharlieLechauve/Projet4_Ohmyfood",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: " Javascript ",
-    Github: "https://github.com/CharlieLechauve/Print-it",
+    previewLink: "https://github.com/CharlieLechauve/Print-it",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: "HTML, CSS, Javascript",
-    Github: "https://github.com/CharlieLechauve/P6_Sophie-Buel",
+    previewLink: "https://github.com/CharlieLechauve/P6_Sophie-Buel",
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: "HTML, CSS, SCSS, React Router, Javascript",
-    Github: "https://github.com/CharlieLechauve/Projet8_Kasa",
+    previewLink: "https://github.com/CharlieLechauve/Projet8_Kasa",
   },
   {
     id: 7,
@@ -80,7 +80,7 @@ const items = [
     project: "SEO",
     client: "OpenClassRooms",
     langages: "SEO, Accessibility, performance optimisation",
-    Github: "https://github.com/CharlieLechauve/P9_NinaCarducci",
+    previewLink: "https://github.com/CharlieLechauve/P9_NinaCarducci",
   },
   {
     id: 8,
@@ -91,7 +91,7 @@ const items = [
     project: "Website Debug",
     client: "OpenClassRooms",
     langages: " React Dev Tools, Tests ",
-    Github: "https://github.com/CharlieLechauve/P10_724Events",
+    previewLink: "https://github.com/CharlieLechauve/P10_724Events",
   },
   {
     id: 9,
@@ -102,7 +102,7 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: "Javascript, React, Redux, Vite.js",
-    Github: "https://github.com/CharlieLechauve/P11_ArgentBank",
+    previewLink: "https://github.com/CharlieLechauve/P11_ArgentBank",
   },
 ];
 
