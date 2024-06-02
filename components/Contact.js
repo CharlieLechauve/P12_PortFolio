@@ -39,7 +39,7 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_ayxcdl3", // service id
+          "service_xy9zu0n", // service id
           "template_v5tgut9", // template id
           mailData,
           "7a7jFnPTDYG7lBlbm" // public api
