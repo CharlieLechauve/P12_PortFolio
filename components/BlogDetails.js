@@ -30,12 +30,12 @@ const BlogDetails = ({ blog }) => {
               <i className="fa fa-calendar pr-3 text-accent" /> {blog.date}
             </span>
             <span className="pr-15">
-              <i className="fa fa-tags pr-3 text-accent" /> {currentBlogs.tags}
+              <i className="fa fa-tags pr-3 text-accent" /> {blog.tags}
 
             </span>
           </div>
           <h1 className="mt-13 mb-20 font-semibold capitalize text-fs-40 xs:text-fs-26 leading-lh-1.2">
-            {currentBlogs.title}
+            {blog.title}
           </h1>
           <img className="rounded-5 mb-20 w-full" src={blog.img} alt="img" />
           <div className="font-Open-sans mb-60">
