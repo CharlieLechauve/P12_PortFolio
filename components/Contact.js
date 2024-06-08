@@ -116,7 +116,7 @@ const Contact = () => {
                 {socials.map((social) => (
                   <li key={social.id} className="inline-block">
                     <a
-                      href="#"
+                      href={social.link}
                       className={`social-item inline-block h-40 w-40 leading-lh-42 text-center text-${
                         dark ? "white" : "black-6"
                       } transition duration-300 text-fs-17 mx-6 bg-${

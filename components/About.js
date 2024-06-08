@@ -217,7 +217,9 @@ const About = () => {
             {/* Personal Informations Starts */}
             <div className="xl:basis-1/2 lg:basis-5/12 down-lg:basis-full">
               <h3 className="uppercase text-fs-26 xs:text-fs-21 pb-22 text-white font-semibold">
-                {language === "FR" ? "informations personnelles" : "personal infos"}
+                {language === "FR" 
+                  ? "informations personnelles" 
+                  : "personal infos"}
               </h3>
               <img
                 className="hidden xs:block rounded-full border-4 border-solid border-black-3 w-230 h-230 mb-25 mx-auto"
@@ -268,7 +270,7 @@ const About = () => {
                         dark ? "black-3" : "grey"
                       } rounded-5 mb-30 xs:mb-25`}
                     >
-                      <h3 className="relative inline-block font-bold text-fs-50 xs:text-fs-40 text-accent leading-lh-1.2 after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
+                      <h3 className="relative inline-block font-bold text-fs-40 xs:text-fs-40 text-accent leading-lh-1.2 after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
                         {counter.value}
                       </h3>
                       <p
