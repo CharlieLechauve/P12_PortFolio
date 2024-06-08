@@ -27,7 +27,7 @@ const items = [
     langages: "HTML, CSS - Mobile First",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-github"></i>
+        GitHub
       </a>
     ),
   },
