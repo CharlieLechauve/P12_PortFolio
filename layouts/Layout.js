@@ -2,6 +2,7 @@
 import DayLight from "@/components/DayLight";
 import LanguageSwitch from "@/components/LanguageSwitch";
 import Popup from "@/components/Popup";
+import Preloader from "@/components/Preloader";
 import { utility } from "@/utility";
 import Switcher from "@/components/Switcher";
 import { Context } from "@/context/context";
@@ -22,6 +23,7 @@ const Layout = ({ children }) => {
         dark ? "white" : "black-6"
       } relative w-full h-full overflow-hidden anim--effect-3 animation-${direction}`}
     >
+      <Preloader />
       {popup && <Popup />}
       <Switcher />
       <DayLight />
