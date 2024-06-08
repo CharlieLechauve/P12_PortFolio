@@ -6,8 +6,6 @@ import SectionTitle from "./SectionTitle";
 
 const BlogDetails = ({ blog }) => {
   const { dark, language } = useContext(Context);
-
-  const selectedBlog = language === 'FR' ? blog.FR[0] : blog.EN [0];
   
   return (
     <SectionContainer id={"blog-details"}>
@@ -26,19 +24,19 @@ const BlogDetails = ({ blog }) => {
             } font-Open-sans`}
           >
             <span className="pr-15">
-              <i className="fa fa-user pr-3 text-accent" /> {selectedBlog.author}
+              <i className="fa fa-user pr-3 text-accent" /> {blog.author}
             </span>
             <span className="pr-15">
-              <i className="fa fa-calendar pr-3 text-accent" /> {selectedBlog.date}
+              <i className="fa fa-calendar pr-3 text-accent" /> {blog.date}
             </span>
             <span className="pr-15">
-              <i className="fa fa-tags pr-3 text-accent" /> {selectedBlog.tags}
+              <i className="fa fa-tags pr-3 text-accent" /> {blog.tags}
             </span>
           </div>
           <h1 className="mt-13 mb-20 font-semibold capitalize text-fs-40 xs:text-fs-26 leading-lh-1.2">
             {blog.title}
           </h1>
-          <img className="rounded-5 mb-20 w-full" src={selectedBlog.img} alt="img" />
+          <img className="rounded-5 mb-20 w-full" src={blog.img} alt="img" />
           <div className="font-Open-sans mb-60">
           <p className="mb-32 leading-lh-30">
             {language === "FR" 
