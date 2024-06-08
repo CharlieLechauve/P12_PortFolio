@@ -2,7 +2,7 @@ import { Context } from "@/context/context";
 import { useContext } from "react";
 
 const Popup = () => {
-  const { popup, popupToggle, dark } = useContext(Context);
+  const { popup, popupToggle, dark, language } = useContext(Context);
   return (
     <div className="portfolio">
       <div className="slideshow-open">
@@ -20,22 +20,34 @@ const Popup = () => {
               <div className="flex flex-wrap font-Open-sans text-fs-15">
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-file-text-o pr-8" />
-                  <span className="project-label">Project </span>:{" "}
+                  <span className="project-label"> 
+                    Project 
+                  </span>:{" "}
                   <span className="font-semibold">{popup.project}</span>
                 </div>
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-user-o pr-8" />
-                  <span className="project-label">Client </span>:{" "}
+                  <span className="project-label">
+                      Client 
+                  </span>:{" "}
                   <span className="font-semibold">{popup.client}</span>
                 </div>
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-code pr-8" />
-                  <span className="project-label">Langages </span>:{" "}
+                  <span className="project-label">
+                    {language === "FR" 
+                    ? "projets" 
+                    : "projects"} 
+                  </span>:{" "}
                   <span className="font-semibold">{popup.langages}</span>
                 </div>
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-external-link pr-8" />
-                  <span className="project-label">Preview </span>:{" "}
+                  <span className="project-label">
+                    {language === "FR" 
+                      ? "aperçu" 
+                      : "preview"} 
+                  </span>:{" "}
                   <span className="font-semibold">
                     <a
                       className="underline text-accent"

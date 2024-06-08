@@ -10,13 +10,12 @@ const Blog = () => {
   let sort = 3;
   const [active, setActive] = useState(1);
   const [state, setstate] = useState([]);
-  const { language } = useContext(Context);
   useEffect(() => {
     utility.pagination(".blog-list-item", sort, active);
     let list = document.querySelectorAll(".blog-list-item");
     setstate(utility.getPagination(list.length, sort));
   }, [active]);
-  const { blogs, changeNav, dark } = useContext(Context);
+  const { blogs, changeNav, dark, language } = useContext(Context);
 
   const [blogDetailsData, setBlogDetailsData] = useState(null);
 

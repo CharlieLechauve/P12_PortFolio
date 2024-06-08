@@ -4,7 +4,7 @@ import SectionContainer from "@/layouts/SectionContainer";
 import { useContext } from "react";
 
 const Home = ({ authorImage }) => {
-  const { changeNav, dark } = useContext(Context);
+  const { changeNav, dark, language } = useContext(Context);
   return (
     <SectionContainer id="home">
       <div className="bg-accent fixed w-full h-200prcnt -rotate-15 -top-1/2 -left-83prcnt hidden from-lg:block" />
@@ -27,15 +27,18 @@ const Home = ({ authorImage }) => {
             {/* Mobile Image Ends */}
             {/* Informations Starts */}
             <h1 className="text-fs-51 text-accent font-Poppins relative uppercase font-bold leading-lh-62 pl-70 before:absolute before:left-0 before:top-29 before:h-4 before:w-40 before:rounded-10 custom-md-2:text-fs-42 down-xl:before:hidden down-xl:pl-0 custom-md-2:leading-lh-52 down-md:text-fs-38 down-md:leading-lh-48 down-md:mt-29 down-md:mb-13 xs:text-fs-29 xs:leading-lh-39 xs:mt-18">
-              I'm Charlie Lechauve
+              {language === "FR" 
+                ? "Je suis Charlie Lechauve" 
+                : "I'm Charlie Lechauve"}
               <span className={`block ${dark ? "text-white" : "text-black-6"}`}>
-                Front-End Developper
+                {language === "FR" ? "Développeur Front-End" : "Front-End Developer"}
               </span>
             </h1>
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
-              I'm a French &amp; front‑end developer
-              focused on crafting clean &amp; user‑friendly experiences, I am
-              passionate about Environnement so I give a lot of importance to Green Code in my creations.
+              {language === "FR" 
+                ? "Je suis un développeur front‑end français focalisé sur la création d'expériences propres et conviviales. Je suis passionné par l'environnement, donc j'accorde beaucoup d'importance au Green Code dans mes créations."
+                : "I'm a French & front‑end developer focused on crafting clean & user‑friendly experiences. I am passionate about the environment, so I give a lot of importance to Green Code in my creations."
+              }
             </p>
             <div
               id="link-about"
@@ -49,7 +52,9 @@ const Home = ({ authorImage }) => {
                     : "text-black-6 group-hover:text-white transition-all duration-300"
                 }`}
               >
-                more about me
+                {language === "FR" 
+                  ? "plus sur moi" 
+                  : "more about me"}
               </span>
               <span
                 className={`absolute -right-px bottom-0 w-55 h-55 flex items-center justify-center rounded-full text-white text-fs-19 fa fa-arrow-right bg-accent`}

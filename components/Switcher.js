@@ -45,12 +45,16 @@ const directions = [
 
 const Switcher = () => {
   const [toggle, setToggle] = useState(false);
-  const { changeColor, changeDirection, direction } = useContext(Context);
+  const { changeColor, changeDirection, direction, language } = useContext(Context);
   return (
     <div className={`switcher_container ${toggle ? "switch_open" : ""}`}>
       <div id="switcher">
         <div className="content-switcher">
-          <h4>COLOR SWITCHER</h4>
+          <h4>
+            {language === "FR" 
+              ? "CHANGEUR DE COULEUR" 
+              : "COLOR SWITCHER" }
+          </h4>
           <ul>
             {colors.map((color) => (
               <li key={color.id}>
@@ -68,7 +72,11 @@ const Switcher = () => {
               </li>
             ))}
           </ul>
-          <h4>TRANSITION DIRECTION</h4>
+          <h4>
+          {language === "FR"
+            ? "DIRECTION DE TRANSITION" 
+            : "TRANSITION DIRECTION" }
+          </h4>
           {directions.map((direction_) => (
             <div
               className="flex justify-between transition-direction"
@@ -88,7 +96,11 @@ const Switcher = () => {
               ))}
             </div>
           ))}
-          <span>Navigate between sections to see the effect.</span>
+          <span>
+            {language === "FR" 
+              ? "Naviguez entre les sections pour voir l'effet" 
+              : "Navigate between sections to see the effect."}
+          </span>
           <div id="hideSwitcher" onClick={() => setToggle(false)}>
             ×
           </div>

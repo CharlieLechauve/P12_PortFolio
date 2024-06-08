@@ -50,7 +50,7 @@ const frenchBio = [
   },
 ];
 
-const counters = [
+const englishCounters = [
   {
     id: 1,
     title: '<span className="block">experience</span>',
@@ -64,11 +64,53 @@ const counters = [
   {
     id: 3,
     title: 'happy <span className="block">customers</span>',
-    value: "Myself",
+    value: "Me",
   },
 ];
 
-const experiences = [
+const frenchCounters = [
+  {
+    id: 1,
+    title: '<span className="block">expérience</span>',
+    value: "Junior",
+  },
+  {
+    id: 2,
+    title: 'Projets <span className="block">complétés</span>',
+    value: "12",
+  },
+  {
+    id: 3,
+    title: 'Clients <span className="block">Satisfaits</span>',
+    value: "Moi",
+  },
+];
+
+const frenchExp = [
+  {
+    id: 1,
+    date: " 2019 - 2022 ",
+    title: " Technicien supérieur ",
+    company: " Technosol ",
+    desc: " Responsable de l'organisation, de la prévention et du suivi de chantiers ",
+  },
+  {
+    id: 2,
+    date: " 2017 - 2019 ",
+    title: " Ingénieur en géotechnique ",
+    company: " Technosol ",
+    desc: " Responsable de l'organisation, de la prévention et du suivi de chantiers ",
+  },
+  {
+    id: 3,
+    date: " 2016 - 2017 ",
+    title: " Technicien de chantier ",
+    company: " Technosol ",
+    desc: " Préparation et suivi de chantiers ",
+  },
+];
+
+const englishExp = [
   {
     id: 1,
     date: " 2019 - 2022 ",
@@ -92,7 +134,7 @@ const experiences = [
   },
 ];
 
-const educations = [
+const englishEducations = [
   {
     id: 1,
     date: " Sept 2023 - June 2024 ",
@@ -103,16 +145,40 @@ const educations = [
   {
     id: 2,
     date: " 2017 - 2019 ",
-    title: "Master Degree of Geotech",
+    title: "Master's Degree in Geotech",
     unv: "University of Besançon",
     desc: " Georesources, geohazards and geology ",
   },
   {
     id: 3,
     date: " 2012 - 2016 ",
-    title: " Bachelor Degree of Geology ",
+    title: " Bachelor's Degree in Geology ",
     unv: " University of Besançon ",
     desc: " Life and earth science, geology specialisation ",
+  },
+];
+
+const frenchEducations = [
+  {
+    id: 1,
+    date: " Sept 2023 - June 2024 ",
+    title: " Développeur/Intégrateur Web ",
+    unv: " OpenClassRooms ",
+    desc: " Créations de 12 projets professionnalisant utilisant HTML, CSS, Javascript, React, Redux... ",
+  },
+  {
+    id: 2,
+    date: " 2017 - 2019 ",
+    title: "Master - Géologie appliquée",
+    unv: "University of Besançon",
+    desc: " Géoressources, géorisques et géologie ",
+  },
+  {
+    id: 3,
+    date: " 2012 - 2016 ",
+    title: " Licence - Géologie ",
+    unv: " University of Besançon ",
+    desc: " Science et vie de la terre - Option géologie ",
   },
 ];
 
@@ -131,6 +197,10 @@ const About = () => {
   const { dark, language } = useContext(Context);
 
   const bio = language === "FR" ? frenchBio : englishBio;
+  const counters = language === "FR" ? frenchCounters : englishCounters;
+  const experiences = language === "FR" ? frenchExp : englishExp;
+  const educations = language === "FR" ? frenchEducations : englishEducations;
+
 
   return (
     <SectionContainer id="about">

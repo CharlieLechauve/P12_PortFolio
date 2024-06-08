@@ -13,6 +13,7 @@ const type = {
   DIRECTION: "DIRECTION",
   POPUP: "POPUP",
   DARK: "DARK",
+  LANGUAGE: "LANGUAGE",
 };
 const { NAV, TOGGLE, COLOR, POPUP, DIRECTION, DARK, LANGUAGE } = type;
 
@@ -23,18 +24,31 @@ const initialState = {
   color: "yellow",
   direction: "top",
   popup: null,
-  blogs: [
-    {
-      id: 1,
-      author: "Charlie",
-      date: "01/06/2024",
-      tags: "ecology, greencode, development",
-      title: "How to respect nature when coding",
-      img: " ",
-      desc: " Nature need us to be respectful. Let's talk about Green Code ",
-    },
-  ],
-  dark: true,
+  blogs: {
+    EN : [
+      {
+        id: 1,
+        author: "Charlie",
+        date: "01/06/2024",
+        tags: "ecology, greencode, development",
+        title: "How to respect nature when coding",
+        img: " ",
+        desc: "Nature need us to be respectful. Let's talk about Green Code",
+      },
+    ],
+    FR : [
+      {
+        id: 1,
+        author: "Charlie",
+        date: "01/06/2024",
+        tags: "écologie, greencode, développement",
+        title: "Comment respecter la nature en codant",
+        img: " ",
+        desc: "La nature a besoin que nous soyons respectueux. Parlons du Code Vert",
+      },
+    ],
+  },
+  dark: false,
   language: "EN",
 };
 
@@ -137,6 +151,8 @@ const State = ({ children }) => {
   
 
   const { nav, toggle, color, direction, popup, blogs, dark, language } = state;
+  const currentBlogs = blogs[language];
+
   return (
     <Context.Provider
       value={{
@@ -149,7 +165,7 @@ const State = ({ children }) => {
         changeDirection,
         popupToggle,
         popup,
-        blogs,
+        blogs: currentBlogs,
         dark,
         darkToggle,
         language,

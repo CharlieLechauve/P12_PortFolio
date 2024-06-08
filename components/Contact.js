@@ -9,18 +9,18 @@ const socials = [
   { id: 1, icon: "fa fa-facebook", link: "#" },
   { id: 2, icon: "fa fa-twitter", link: "#" },
   { id: 3, icon: "fa fa-youtube", link: "#" },
-  { id: 4, icon: "fa fa-dribbble", link: "#" },
+  { id: 4, icon: "fa fa-linkedin", link: "https://www.linkedin.com/in/charlie-lechauve-667a51303/" },
 ];
 
 const Contact = () => {
-  const { dark } = useContext(Context);
+  const { dark, language } = useContext(Context);
 
   const [mailData, setMailData] = useState({
     name: " ",
     email: " ",
-    subject: "",
-    message: "",
-    template: "",
+    subject: " ",
+    message: " ",
+    template: " ",
   });
   const { name, email, subject, message, template } = mailData;
   const [error, setError] = useState(null);
@@ -84,26 +84,33 @@ const Contact = () => {
             {/* Contact Details Starts */}
             <div className="w-1/3 down-lg:w-full px-16 xs:px-0">
               <h3 className="text-fs-26 xs:text-fs-21 mb-16 font-semibold uppercase">
-                don't be shy !
+                {language === "FR" 
+                  ? "n'hésitez pas !" 
+                  : "don't be shy !"}
               </h3>
               <p className="mb-16 font-Open-sans text-fs-15 xs:text-fs-14">
-                Feel free to get in touch with me. I am always open to
-                discussing new projects, creative ideas or opportunities to be
-                part of your visions.
+                {language === "FR"
+                  ? "N'hésitez pas à me contacter. Je suis toujours ouvert à discuter de nouveaux projets, d'idées créatives ou d'opportunités pour faire partie de vos visions."
+                  : "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions."
+                }
               </p>
               <div className="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16">
                 <i className="fa fa-envelope-open absolute left-0 top-10 text-fs-33 text-accent" />
                 <span className="block opacity-80 uppercase font-normal">
-                  mail me
+                  {language === "FR" 
+                    ? "envoyez-moi un mail" 
+                    : "mail me"}
                 </span>
                 lechauve.charlie@orange.fr
               </div>
               <div className="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16">
                 <i className="fa fa-phone-square absolute left-0 top-10 text-fs-39 text-accent" />
                 <span className="block opacity-80 uppercase font-normal">
-                  call me
+                  {language === "FR" 
+                    ? "appelez-moi" 
+                    : "call me"}
                 </span>
-                +336 85 74 98 82
+                    +336 85 74 98 82
               </div>
               <ul className="-ml-5 pt-4 mb-48">
                 {socials.map((social) => (

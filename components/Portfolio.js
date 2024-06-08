@@ -25,7 +25,11 @@ const items = [
     project: "Website",
     client: " OpenClassRooms ",
     langages: "HTML, CSS - Mobile First",
-    previewLink: "https://github.com/CharlieLechauve/Projet4_Ohmyfood",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
   {
     id: 3,
@@ -36,7 +40,11 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: " Javascript ",
-    previewLink: "https://github.com/CharlieLechauve/Print-it",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/Print-it" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
   {
     id: 4,
@@ -47,7 +55,11 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: "HTML, CSS, Javascript",
-    previewLink: "https://github.com/CharlieLechauve/P6_Sophie-Buel",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/P6_Sophie-Buel" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
   {
     id: 5,
@@ -69,7 +81,11 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: "HTML, CSS, SCSS, React Router, Javascript",
-    previewLink: "https://github.com/CharlieLechauve/Projet8_Kasa",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/Projet8_Kasa" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
   {
     id: 7,
@@ -80,7 +96,11 @@ const items = [
     project: "SEO",
     client: "OpenClassRooms",
     langages: "SEO, Accessibility, performance optimisation",
-    previewLink: "https://github.com/CharlieLechauve/P9_NinaCarducci",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/P9_NinaCarducci" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
   {
     id: 8,
@@ -91,7 +111,11 @@ const items = [
     project: "Website Debug",
     client: "OpenClassRooms",
     langages: " React Dev Tools, Tests ",
-    previewLink: "https://github.com/CharlieLechauve/P10_724Events",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/P10_724Events" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
   {
     id: 9,
@@ -102,7 +126,11 @@ const items = [
     project: "Website",
     client: "OpenClassRooms",
     langages: "Javascript, React, Redux, Vite.js",
-    previewLink: "https://github.com/CharlieLechauve/P11_ArgentBank",
+    previewLink: (
+      <a href="https://github.com/CharlieLechauve/P11_ArgentBank" target="_blank" rel="noopener noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+    ),
   },
 ];
 

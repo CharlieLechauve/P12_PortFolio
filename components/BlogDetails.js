@@ -38,18 +38,24 @@ const BlogDetails = ({ blog }) => {
           </h1>
           <img className="rounded-5 mb-20 w-full" src={blog.img} alt="img" />
           <div className="font-Open-sans mb-60">
-            <p className="mb-32 leading-lh-30">
-              This article is not intended to be a complete or even professional article. 
-              This article is written by a junior developer who loves nature and wants to understand how to code properly.
-            </p>
-            <p className="mb-32 leading-lh-30">
-              There are always more and more of us and more and more connected. 
-              It seems to me that it is our duty to use good practices when we develop. 
-              Anyone wishing to make a contribution is welcome. I want to learn and improve. Any information and help will be welcome to anyone wishing to participate in this blog project.
-            </p>
-            <p className="mb-32 leading-lh-30">
-              The long-term objective is to create a website, forum or blog, where any developer can learn green code.
-            </p>
+          <p className="mb-32 leading-lh-30">
+            {language === "FR" 
+              ? "Cet article n'est pas destiné à être un article complet ou même professionnel. Cet article est écrit par un développeur junior qui aime la nature et veut comprendre comment bien coder."
+              : "This article is not intended to be a complete or even professional article. This article is written by a junior developer who loves nature and wants to understand how to code properly."
+            }
+          </p>
+          <p className="mb-32 leading-lh-30">
+            {language === "FR" 
+              ? "Nous sommes de plus en plus nombreux et de plus en plus connectés. Il me semble que c'est notre devoir d'utiliser de bonnes pratiques lorsque nous développons. Toute personne souhaitant apporter sa contribution est la bienvenue. Je veux apprendre et m'améliorer. Toute information et aide sera la bienvenue pour toute personne souhaitant participer à ce projet de blog."
+              : "There are always more and more of us and more and more connected. It seems to me that it is our duty to use good practices when we develop. Anyone wishing to make a contribution is welcome. I want to learn and improve. Any information and help will be welcome to anyone wishing to participate in this blog project."
+            }
+          </p>
+          <p className="mb-32 leading-lh-30">
+            {language === "FR" 
+              ? "L'objectif à long terme est de créer un site web, un forum ou un blog, où tout développeur peut apprendre le code vert."
+              : "The long-term objective is to create a website, forum or blog, where any developer can learn green code."
+            }
+          </p>
           </div>
         </div>
       </div>
