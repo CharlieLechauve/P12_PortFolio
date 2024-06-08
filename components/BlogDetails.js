@@ -30,7 +30,8 @@ const BlogDetails = ({ blog }) => {
               <i className="fa fa-calendar pr-3 text-accent" /> {blog.date}
             </span>
             <span className="pr-15">
-              <i className="fa fa-tags pr-3 text-accent" /> {blog.tags}
+              <i className="fa fa-tags pr-3 text-accent" /> {language === "FR" ? blog.tags : blog.tags}
+
             </span>
           </div>
           <h1 className="mt-13 mb-20 font-semibold capitalize text-fs-40 xs:text-fs-26 leading-lh-1.2">
