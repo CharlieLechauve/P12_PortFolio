@@ -178,7 +178,8 @@
     top: 40px;
   }
   #showSwitcher {
-    top: 15px;
+    top: 210px;
+    display: block;
   }
 }
 
