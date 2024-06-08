@@ -16,11 +16,11 @@ const Contact = () => {
   const { dark, language } = useContext(Context);
 
   const [mailData, setMailData] = useState({
-    name: " ",
-    email: " ",
-    subject: " ",
-    message: " ",
-    template: " ",
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+    template: "",
   });
   const { name, email, subject, message, template } = mailData;
   const [error, setError] = useState(null);
@@ -54,7 +54,7 @@ const Contact = () => {
               message: "",
               phone: "",
               subject: "",
-              template: " ",
+              template: "",
             });
           },
           (err) => {

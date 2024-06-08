@@ -27,7 +27,7 @@ const items = [
     langages: "HTML, CSS - Mobile First",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
@@ -42,7 +42,7 @@ const items = [
     langages: " Javascript ",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/Print-it" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
@@ -57,7 +57,7 @@ const items = [
     langages: "HTML, CSS, Javascript",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/P6_Sophie-Buel" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
@@ -83,7 +83,7 @@ const items = [
     langages: "HTML, CSS, SCSS, React Router, Javascript",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/Projet8_Kasa" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
@@ -98,7 +98,7 @@ const items = [
     langages: "SEO, Accessibility, performance optimisation",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/P9_NinaCarducci" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
@@ -113,7 +113,7 @@ const items = [
     langages: " React Dev Tools, Tests ",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/P10_724Events" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
@@ -128,7 +128,7 @@ const items = [
     langages: "Javascript, React, Redux, Vite.js",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/P11_ArgentBank" target="_blank" rel="noopener noreferrer">
-        <i className="fa-brands fa-github" />
+        <i class="fa-brands fa-github"></i>
       </a>
     ),
   },
