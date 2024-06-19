@@ -52,7 +52,7 @@ const Switcher = () => {
         <div className="content-switcher">
           <h4>
             {language === "FR" 
-              ? "CHANGEUR DE COULEUR" 
+              ? "COULEUR" 
               : "COLOR SWITCHER" }
           </h4>
           <ul>
