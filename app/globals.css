@@ -81,7 +81,6 @@
 
 @media screen and (max-width: 576px) {
   .dark-switch, .language-switch {
-    top: 90px;
     right: 20px;
   }
 }
