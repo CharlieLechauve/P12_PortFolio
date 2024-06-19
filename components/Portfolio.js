@@ -150,9 +150,9 @@ const Portfolio = () => {
       <div className="w-full pb-60">
         {/* Section Title Starts */}
         <SectionTitle
-          bigTitle={"works"}
+          bigTitle={language === "FR" ? "projets" : "works"}
           colorTitle={"portfolio"}
-          normalTitle={"my"}
+          normalTitle={language === "FR" ? "mon" : "my"}
         />
         {/* Section Title Ends */}
         {/* Portfolio Items Starts */}
@@ -178,11 +178,7 @@ const Portfolio = () => {
                       />
                       <div className="absolute w-full h-full flex items-center justify-center bg-accent">
                       <span className="uppercase text-fs-18 text-white">
-                          {item.title}
-                          
-                        </span><span className="uppercase text-fs-18 text-white">
-                          {item.description}
-                          
+                          {item.title}                         
                         </span>
                       </div>
                     </figure>

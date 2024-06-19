@@ -18,13 +18,15 @@ const Popup = () => {
                 {popup.title}
               </h3>
               <div className="flex flex-wrap font-Open-sans text-fs-15">
+
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-file-text-o pr-8" />
                   <span className="project-label"> 
-                    Project 
+                      Type 
                   </span>:{" "}
                   <span className="font-semibold">{popup.project}</span>
                 </div>
+
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-user-o pr-8" />
                   <span className="project-label">
@@ -32,21 +34,23 @@ const Popup = () => {
                   </span>:{" "}
                   <span className="font-semibold">{popup.client}</span>
                 </div>
+
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-code pr-8" />
                   <span className="project-label">
                     {language === "FR" 
-                    ? "projets" 
-                    : "projects"} 
+                    ? "Projets" 
+                    : "Projects"} 
                   </span>:{" "}
                   <span className="font-semibold">{popup.langages}</span>
                 </div>
+
                 <div className="w-1/2 xs:w-full mb-8">
                   <i className="fa fa-external-link pr-8" />
                   <span className="project-label">
                     {language === "FR" 
-                      ? "aperçu" 
-                      : "preview"} 
+                      ? "Aperçu" 
+                      : "Preview"} 
                   </span>:{" "}
                   <span className="font-semibold">
                     <a
@@ -58,6 +62,15 @@ const Popup = () => {
                     </a>
                   </span>
                 </div>
+
+                <div className="w-1/2 xs:w-full mb-8">
+                  <i className="fa fa-file-text-o pr-8" />
+                  <span className="project-label"> 
+                    Description 
+                  </span>:{" "}
+                  <span className="font-semibold">{popup.project}</span>
+                </div>
+
               </div>
             </figcaption>
             {/* Project Details Ends */}
