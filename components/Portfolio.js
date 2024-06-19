@@ -10,7 +10,7 @@ const items = [
     title: "Booki",
     type: "img",
     src: "",
-    img: "assets/img/booki.webp",
+    img: "assets/img/projects/booki.webp",
     project: "Website",
     client: " OpenClassRooms",
     langages: " HTML, CSS ",
