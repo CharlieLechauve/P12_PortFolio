@@ -144,7 +144,7 @@ const items = [
 ];
 
 const Portfolio = () => {
-  const { popupToggle } = useContext(Context);
+  const { popupToggle, language } = useContext(Context);
   return (
     <SectionContainer id="portfolio">
       <div className="w-full pb-60">
