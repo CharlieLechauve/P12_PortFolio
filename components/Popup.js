@@ -63,7 +63,7 @@ const Popup = () => {
                   </span>
                 </div>
 
-                <div className="w-1/2 xs:w-full mb-8">
+                <div className="w-1 xs:w-full mb-8">
                   <i className="fa fa-file-text-o pr-8" />
                   <span className="project-label"> 
                     Description 
