@@ -15,6 +15,7 @@ const items = [
     client: " OpenClassRooms",
     langages: " HTML, CSS ",
     previewLink: " ",
+    description: " Intégrer l'interface d'un site web avec du code HTML et CSS ",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
   {
     id: 5,
@@ -71,6 +75,7 @@ const items = [
     client: "OpenClassRooms",
     langages: "Kanban, Pearltress, Notion, Scrum ",
     previewLink: " ",
+    description: " ",
   },
   {
     id: 6,
@@ -86,6 +91,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
   {
     id: 7,
@@ -101,6 +107,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
   {
     id: 8,
@@ -116,6 +123,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
   {
     id: 9,
@@ -131,6 +139,7 @@ const items = [
         GitHub
       </a>
     ),
+    description: " ",
   },
 ];
 
@@ -170,6 +179,7 @@ const Portfolio = () => {
                       <div className="absolute w-full h-full flex items-center justify-center bg-accent">
                         <span className="uppercase text-fs-18 text-white">
                           {item.title}
+                          {item.description}
                         </span>
                       </div>
                     </figure>
