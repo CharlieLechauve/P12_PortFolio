@@ -68,7 +68,10 @@ const Popup = () => {
                   <span className="project-label"> 
                     Description 
                   </span>:{" "}
-                  <span className="font-semibold">{popup.project}</span>
+                  <span className="font-semibold">
+                  {language === "FR" 
+                      ? popup.frenchDescription 
+                      : popup.englishDescription}</span>
                 </div>
 
               </div>

@@ -15,7 +15,8 @@ const items = [
     client: " OpenClassRooms",
     langages: " HTML, CSS ",
     previewLink: " ",
-    description: " Intégrer l'interface d'un site web avec du code HTML et CSS ",
+    frenchDescription: " Intégrer l'interface d'un site web avec du code HTML et CSS ",
+    englishDescription: " ",
   },
   {
     id: 2,
@@ -31,7 +32,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 3,
@@ -47,7 +49,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 4,
@@ -63,7 +66,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 5,
@@ -75,7 +79,8 @@ const items = [
     client: "OpenClassRooms",
     langages: "Kanban, Pearltress, Notion, Scrum ",
     previewLink: " ",
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 6,
@@ -91,7 +96,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 7,
@@ -107,7 +113,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 8,
@@ -123,7 +130,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
   {
     id: 9,
@@ -139,7 +147,8 @@ const items = [
         GitHub
       </a>
     ),
-    description: " ",
+    frenchDescription: " ",
+    englishDescription: " ",
   },
 ];
 
