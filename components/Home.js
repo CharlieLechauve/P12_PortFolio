@@ -37,7 +37,7 @@ const Home = ({ authorImage }) => {
             <p className="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
               {language === "FR" 
                 ? "Je suis un développeur front‑end français focalisé sur la création d'expériences propres et conviviales. Je suis passionné par l'environnement, donc j'accorde beaucoup d'importance au Green Code dans mes créations."
-                : "I'm a French & front‑end developer focused on crafting clean & user‑friendly experiences. I am passionate about the environment, so I give a lot of importance to Green Code in my creations."
+                : "I'm a French Front‑end developer focused on crafting clean & user‑friendly experiences. I am passionate about the environment, so I give a lot of importance to Green Code in my creations."
               }
             </p>
             <div

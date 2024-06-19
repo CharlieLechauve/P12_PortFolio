@@ -177,9 +177,12 @@ const Portfolio = () => {
                         alt=""
                       />
                       <div className="absolute w-full h-full flex items-center justify-center bg-accent">
-                        <span className="uppercase text-fs-18 text-white">
+                      <span className="uppercase text-fs-18 text-white">
                           {item.title}
+                          
+                        </span><span className="uppercase text-fs-18 text-white">
                           {item.description}
+                          
                         </span>
                       </div>
                     </figure>
