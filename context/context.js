@@ -21,7 +21,7 @@ const { NAV, TOGGLE, COLOR, POPUP, DIRECTION, DARK, LANGUAGE } = type;
 const initialState = {
   nav: "home",
   toggle: false,
-  color: "yellow",
+  color: "red",
   direction: "top",
   popup: null,
   blogs: {

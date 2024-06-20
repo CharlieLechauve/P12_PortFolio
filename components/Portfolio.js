@@ -166,7 +166,7 @@ const items = [
       </a>
     ),
     frenchDescription: " Création d'une application bancaire en React, Node.Js et MongoDB. Gestion des connexions d'utilisateurs, accès aux comptes, modifications des données et réflexion sur des appels API pour améliorer la gestion du site en phase 2 ",
-    englishDescription: " Creating a banking application in React, Node.js, and MongoDB. Managing user logins, accessing accounts, modifying data, and planning API calls to enhance site management in Phase 2. ",
+    englishDescription: " Creating a banking application in React, Node.js, and MongoDB. Managing user logins, accessing accounts, modifying data, and planning API calls to enhance site management in Phase 2 ",
   },
 ];
 

@@ -9,6 +9,7 @@ const LanguageSwitch = () => {
   return (
     <a
       href="#"
+      alt="Languages toggle"
       className={`language-switch social-item flex h-50 w-50 leading-lh-42 text-center transition duration-300 text-fs-20 mx-6 bg-${
         isEnglish ? "light-grey" : "black-2"
       } rounded-full`}
