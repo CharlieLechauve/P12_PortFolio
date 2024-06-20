@@ -28,12 +28,14 @@ const items = [
     client: " OpenClassRooms ",
     langages: "HTML, CSS - Mobile First",
     previewLink: (
-      <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>,
-      <a href="https://charlielechauve.github.io/Projet4_Ohmyfood/" target="_blank" rel="noopener noreferrer">
-        Website
-      </a>
+      <div>
+        <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <a href="https://charlielechauve.github.io/Projet4_Ohmyfood/" target="_blank" rel="noopener noreferrer">
+          Website
+        </a>
+      </div>
     ),
     frenchDescription: " ",
     englishDescription: " ",
