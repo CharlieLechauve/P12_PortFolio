@@ -6,9 +6,9 @@ import { useContext, useState } from "react";
 import SectionTitle from "./SectionTitle";
 
 const socials = [
-  { id: 1, icon: "fa fa-facebook", link: "#" },
-  { id: 2, icon: "fa fa-twitter", link: "#" },
-  { id: 3, icon: "fa fa-youtube", link: "#" },
+  { id: 1, icon: "fa fa-github", link: "https://github.com/CharlieLechauve" },
+  { id: 2, icon: "fa fa-wix", link: "#" },
+  { id: 3, icon: "fa fa-wordpress", link: "https://www.stoneheadge.fr" },
   { id: 4, icon: "fa fa-linkedin", link: "https://www.linkedin.com/in/charlie-lechauve-667a51303/" },
 ];
 
