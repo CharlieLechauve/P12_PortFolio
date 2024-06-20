@@ -31,14 +31,15 @@ const items = [
       <div>
         <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
           Github
-        </a> ,
+        </a>
+        <br />
         <a href="https://charlielechauve.github.io/Projet4_Ohmyfood/" target="_blank" rel="noopener noreferrer">
           Website
         </a>
       </div>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Intégrer une maquette, incluant des animations, en mobile first ",
+    englishDescription: " Integrate a mockup including animations with a mobile-first approach ",
   },
   {
     id: 3,
@@ -50,12 +51,18 @@ const items = [
     client: "OpenClassRooms",
     langages: " Javascript ",
     previewLink: (
-      <a href="https://github.com/CharlieLechauve/Print-it" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
+      <div>
+        <a href="https://github.com/CharlieLechauve/Print-it" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <br />
+        <a href="https://charlielechauve.github.io/Print-it/" target="_blank" rel="noopener noreferrer">
+          Website
+        </a>
+      </div>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Créer et implémenter un carrousel en Javascript ",
+    englishDescription: " Create and implement a carousel in JavaScript ",
   },
   {
     id: 4,
@@ -71,8 +78,8 @@ const items = [
         GitHub
       </a>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Création d'un Portfolio pour une photographe incluant des filtres, d'un panel administrateur et utilisation d'appel API ",
+    englishDescription: " Creation of a Portfolio for a Photographer including filters, an admin panel, and usage of API calls",
   },
   {
     id: 5,
@@ -84,8 +91,8 @@ const items = [
     client: "OpenClassRooms",
     langages: "Kanban, Pearltress, Notion, Scrum ",
     previewLink: " ",
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Introduction à la planification de projet. Utilisation d'outils de veille technologique et mise en place d'une stratégie Agile ",
+    englishDescription: " Introduction to Project Planning. Use of technology monitoring tools and implementation of an Agile strategy ",
   },
   {
     id: 6,
@@ -95,14 +102,14 @@ const items = [
     img: " assets/img/projects/project-6.webp ",
     project: "Website",
     client: "OpenClassRooms",
-    langages: "HTML, CSS, SCSS, React Router, Javascript",
+    langages: "HTML, CSS, SCSS, React Router, Javascript, Node.Js",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/Projet8_Kasa" target="_blank" rel="noopener noreferrer">
         GitHub
       </a>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Création d'un site One Page avec Create React app. Code réalisé en SCSS afin d'assurer la réutilisation des composants ",
+    englishDescription: " Creation of a One Page site with Create React App. Code written in SCSS to ensure component reusability ",
   },
   {
     id: 7,
@@ -114,12 +121,18 @@ const items = [
     client: "OpenClassRooms",
     langages: "SEO, Accessibility, performance optimisation",
     previewLink: (
-      <a href="https://github.com/CharlieLechauve/P9_NinaCarducci" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
+      <div>
+        <a href="https://github.com/CharlieLechauve/P9_NinaCarducci" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <br />
+        <a href="https://charlielechauve.github.io/P9_NinaCarducci/" target="_blank" rel="noopener noreferrer">
+          Website
+        </a>
+      </div>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Optimisation de l'expérience utilisateur, des performances et du référencement d'un site internet ",
+    englishDescription: " Optimization of user experience, performance, and SEO of a website ",
   },
   {
     id: 8,
@@ -129,14 +142,14 @@ const items = [
     img: " assets/img/projects/project-8.webp ",
     project: "Website Debug",
     client: "OpenClassRooms",
-    langages: " React Dev Tools, Tests ",
+    langages: " React Dev Tools, Tests, Node.js ",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/P10_724Events" target="_blank" rel="noopener noreferrer">
         GitHub
       </a>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Débug et optimisation d'un site internet évènementiel. Amélioration et corrections des appels API, utilisations de test et réalisation d'un cahier de recette ",
+    englishDescription: " Debugging and optimization of an event website. Improving and correcting API calls, using testing, and creating a test plan ",
   },
   {
     id: 9,
@@ -146,14 +159,14 @@ const items = [
     img: " assets/img/projects/project-9.webp ",
     project: "Website",
     client: "OpenClassRooms",
-    langages: "Javascript, React, Redux, Vite.js",
+    langages: "Javascript, React, Redux, Vite.js, Node.js, API, MongoDB",
     previewLink: (
       <a href="https://github.com/CharlieLechauve/P11_ArgentBank" target="_blank" rel="noopener noreferrer">
         GitHub
       </a>
     ),
-    frenchDescription: " ",
-    englishDescription: " ",
+    frenchDescription: " Création d'une application bancaire en React, Node.Js et MongoDB. Gestion des connexions d'utilisateurs, accès aux comptes, modifications des données et réflexion sur des appels API pour améliorer la gestion du site en phase 2 ",
+    englishDescription: " Creating a banking application in React, Node.js, and MongoDB. Managing user logins, accessing accounts, modifying data, and planning API calls to enhance site management in Phase 2. ",
   },
 ];
 
