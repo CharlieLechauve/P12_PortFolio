@@ -184,8 +184,8 @@ const frenchEducations = [
 
 const skills = [
   { id: 1, name: "HTML", value: "90" },
-  { id: 2, name: "CSS", value: "90" },
-  { id: 3, name: "SASS", value: "90" },
+  { id: 2, name: "CSS, SCSS", value: "90" },
+  { id: 3, name: "Tailwind", value: "90" },
   { id: 4, name: "Javascript", value: "75" },
   { id: 5, name: "React", value: "75" },
   { id: 6, name: "Redux", value: "60" },
