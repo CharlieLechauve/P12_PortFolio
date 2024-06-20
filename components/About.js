@@ -191,6 +191,10 @@ const skills = [
   { id: 6, name: "Redux", value: "60" },
   { id: 7, name: "Tests", value: "75" },
   { id: 8, name: "API", value: "60" },
+  { id: 9, name: "Node.js", value: "60" },
+  { id: 10, name: "Vite.js", value: "60" },
+  { id: 11, name: "Next.js", value: "60" },
+  { id: 12, name: "Scrum", value: "60" },
 ];
 
 const About = () => {
