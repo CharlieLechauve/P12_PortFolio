@@ -1,8 +1,27 @@
 import { Context } from "@/context/context";
-import { useContext } from "react";
+import { useContext, useEffect, useRef } from "react";
 
 const Popup = () => {
   const { popup, popupToggle, dark, language } = useContext(Context);
+  const popupRef = useRef(null);
+
+  useEffect(() => {
+    // Ajoute un gestionnaire d'événement pour écouter les clics en dehors de la popup
+    const handleClickOutside = (event) => {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        popupToggle(null); // Ferme la popup si le clic est en dehors
+      }
+    };
+
+    // Ajoute l'écouteur d'événement au chargement du composant
+    document.addEventListener("click", handleClickOutside);
+
+    // Nettoyage du gestionnaire d'événement lors du démontage du composant
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [popupToggle]);
+
   return (
     <div className="portfolio">
       <div className="slideshow-open">
