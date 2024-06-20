@@ -27,6 +27,7 @@ const Popup = () => {
       <div className="slideshow-open">
         <div className="slideshow bg-black">
           <figure
+            ref={popupRef}
             className={`popup_figure bg-${
               dark ? "black-3" : "white"
             } p-30 overflow-auto rounded-10`}
@@ -125,18 +126,7 @@ const Popup = () => {
             {/* Main Project Content Ends */}
           </figure>
           {/* Portfolio Navigation Starts */}
-          <nav className="down-lg:fixed down-lg:top-0 down-lg:w-full down-lg:h-102 down-lg:bg-black-3 down-lg:z-10 down-lg:border-b down-lg:border-solid down-lg:border-b-black-4 xs:h-62">
-            <span
-              onClick={() => popupToggle(null)}
-              className="nav-close fixed cursor-pointer from-lg:top-30 down-lg:top-35 from-lg:right-30 down-lg:left-0 down-lg:right-0 down-lg:mx-auto down-lg:block down-lg:w-32 xs:w-20 xs:top-21"
-            >
-              <img
-                className="block"
-                src="assets/img/projects/navigation/close-button.png"
-                alt="close"
-              />{" "}
-            </span>
-          </nav>
+          
           {/* Portfolio Navigation Ends */}
         </div>
       </div>
