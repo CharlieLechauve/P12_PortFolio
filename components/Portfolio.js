@@ -30,10 +30,10 @@ const items = [
     previewLink: (
       <div>
         <a href="https://github.com/CharlieLechauve/Projet4_Ohmyfood" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-github"></i>
-        </a> 
+          Github
+        </a> ,
         <a href="https://charlielechauve.github.io/Projet4_Ohmyfood/" target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-globe"></i>
+          Website
         </a>
       </div>
     ),
